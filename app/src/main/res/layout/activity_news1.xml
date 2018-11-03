@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".News1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sửa đổi, bổ sung một số điều về BH thất nghiệp"
+                android:textColor="#1d70b7"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="26/10/2018 09:05 AM"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Thủ tướng Chính phủ vừa ký ban hành Nghị định số 148/2018/NĐ-CP ngày 24/10/2018, về sửa đổi, bổ sung một số điều của Nghị định 05/2015/NĐ-CP ngày 12/01/2015 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số nội dung của Bộ luật Lao động. Trong đó, có sửa đổi, bổ sung một số điều về BH thất nghiệp và tiền lương ngày nghỉ lễ."
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/news2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Nghị định 148/2018/NĐ-CP sửa đổi Khoản 1 Điều 3 Nghị định số 05/2015/NĐ-CP ngày 12/01/2015 theo hướng: Người giao kết hợp đồng lao động được bổ sung thêm một trường hợp người ủy quyền bằng văn bản về việc giao kết hợp đồng lao động bởi “người đại diện theo pháp luật quy định tại điều lệ của doanh nghiệp, hợp tác xã” hoặc “người đứng đầu cơ quan, đơn vị, tổ chức có tư cách pháp nhân theo quy định của pháp luật”. \n
+
+Sửa đổi Khoản 6, 7, 8 và 9 của Điều 4 về “Nội dung hợp đồng lao động”, lần lượt như sau: “Chế độ nâng bậc, nâng lương: theo nội dung thỏa thuận của hai bên về điều kiện, thời gian, mức tiền lương sau khi nâng bậc, nâng lương hoặc thỏa thuận thực hiện theo quy chế của người sử dụng lao động, thỏa ước lao động tập thể”; “Thời giờ làm việc, thời giờ nghỉ ngơi: theo nội dung thỏa thuận của hai bên hoặc thỏa thuận thực hiện theo nội quy lao động, quy chế của người sử dụng lao động, thỏa ước lao động tập thể và theo quy định của pháp luật”; “Trang bị bảo hộ lao động cho người lao động: theo nội quy lao động, quy chế của người sử dụng lao động, thỏa ước lao động tập thể và theo quy định của pháp luật về an toàn, vệ sinh lao động”; “BHXH, BH thất nghiệp BHYT: Theo quy định của pháp luật về lao động, BHXH, BH thất nghiệp BHYT”. \n
+
+Sửa đổi Khoản 3 Điều 14 về “Trợ cấp thôi việc, trợ cấp mất việc làm” như sau: “Thời gian làm việc để tính trợ cấp thôi việc, trợ cấp mất việc làm là tổng thời gian NLĐ đã làm việc thực tế cho người sử dụng lao động trừ đi thời gian NLĐ đã tham gia BH thất nghiệp theo quy định của pháp luật và thời gian làm việc đã được người sử dụng lao động chi trả trợ cấp thôi việc, trợ cấp mất việc làm trước đó (nếu có)…” \n
+
+Nghị định cũng đã bổ sung thêm Điều 14a về “Thời hạn thanh toán quyền lợi của người sử dụng lao động và NLĐ khi chấm dứt hợp đồng lao động” sau Điều 14 như sau: “Trong thời hạn 07 ngày làm việc, kể từ ngày chấm dứt hợp đồng lao động, người sử dụng lao động và NLĐ có trách nhiệm thanh toán đầy đủ các khoản có liên quan đến quyền lợi của mỗi bên. Trường hợp đặc biệt, thời hạn thanh toán có thể kéo dài nhưng không được quá 30 ngày, kể từ ngày chấm dứt hợp đồng lao động...” \n
+
+Đồng thời bãi bỏ Khoản 5 Điều 14. \n
+
+Một trong những nội dung đáng chú ý của Nghị định này là quy định mới về tiền lương làm căn cứ để trả cho NLĐ trong ngày nghỉ hàng năm, ngày nghỉ hàng năm tăng thêm theo thâm niêm, ngày nghỉ lễ, tết và ngày nghỉ việc riêng có hưởng lương. \n
+
+Nghị định cũng sửa đổi Điều 30 về “Trình tự xử lý kỷ luật lao động”. \n
+
+Nghị định có hiệu lực thi hành từ ngày 15/12/2018."
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

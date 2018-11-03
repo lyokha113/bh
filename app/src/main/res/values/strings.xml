@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BH</string>
+    <string name="nav_news">TIN TỨC</string>
+    <string name="nav_mortgage">BHXH</string>
+    <string name="nav_shield">BHYT</string>
+    <string name="nav_account">TÀI KHOẢN</string>
+    <string name="title_mortgage">BẢO HIỂM XÃ HỘI</string>
+    <string name="title_shield">BẢO HIỂM Y TẾ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

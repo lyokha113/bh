@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="80dp"
+    android:weightSum="60"
+    tools:context=".DepartmentActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:text="TRA CỨU CƠ QUAN BẢO HIỂM"
+        android:textColor="#3F4068"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        app:ms_alignLabels="true"
+        app:ms_arrowColor="#803F4068"
+        app:ms_arrowSize="16dp"
+        app:ms_hint="Tỉnh/Thành Phố"
+        app:ms_hintColor="#803F4068"
+        app:ms_multiline="false"
+        app:ms_thickness="1sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="40"
+        android:background="@drawable/border_view">
+
+        <LinearLayout
+            android:id="@+id/depList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"></LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

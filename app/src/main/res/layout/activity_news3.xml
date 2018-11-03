@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".News1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sẽ nghiên cứu điều chỉnh mức hỗ trợ người tham gia BHXH tự nguyện"
+                android:textColor="#1d70b7"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10/09/2018 03:09 PM"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đây là một trong những nội dung vừa được Bộ LĐ-TB&amp;XH trả lời ý kiến của cử tri tỉnh Hà Tĩnh (gửi đến kỳ họp thứ 5, Quốc hội khóa XIV) về việc đề nghị cơ quan chức năng ban hành quy định về đóng BHXH cho lao động nước ngoài làm việc tại Việt Nam và nghiên cứu tăng mức hỗ trợ đóng BHXH cho người tham gia BHXH tự nguyện."
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Theo đó, Bộ LĐ-TB&amp;XH cho biết, về thực hiện chính sách BHXH đối với NLĐ là công dân nước ngoài làm việc tại Việt Nam: Theo quy định tại Khoản 2, Điều 2 và Khoản 1, Điều 124 của Luật BHXH năm 2014 thì từ ngày 01/01/2018 “NLĐ là công dân nước ngoài vào làm việc tại Việt Nam có giấy phép lao động hoặc chứng chỉ hành nghề hoặc giấy phép hành nghề do cơ quan có thẩm quyền của Việt Nam cấp được tham gia BHXH bắt buộc theo quy định của Chính phủ”. \n
+
+Trong quá trình triển khai xây dựng văn bản quy định chi tiết nhằm cụ thể hóa nội dung trên theo quy định của Luật, Chính phủ gặp một số vướng mắc về giải thích từ ngữ, về làm rõ cơ sở pháp lý bao gồm xác định đối tượng áp dụng, các chế độ BHXH và lộ trình thực hiện, thời điểm áp dụng chính sách. \n
+
+Ngày 31/5/2018, Bộ LĐ-TB&amp;XH đã có Báo cáo Chính phủ số 44/BC-LĐTBXH về dự thảo Tờ trình Ủy ban Thường vụ Quốc hội và dự thảo Nghị quyết của Quốc hội về nội dung nêu trên. Trên cơ sở ý kiến của Quốc hội, Bộ sẽ hoàn thiện dự thảo Nghị định để trình Chính phủ ban hành và tổ chức triển khai thực hiện chính sách. \n"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/news4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Về kiến nghị xem xét, nghiên cứu tăng mức hỗ trợ đóng BHXH cho người tham gia đóng BHXH tự nguyện: Theo quy định tại Nghị định số 134/2015/NĐ-CP ngày 29/12/2015 quy định chi tiết một số điều của Luật BHXH về BHXH tự nguyện thì từ ngày 01/01/2018, người tham gia BHXH tự nguyện được Nhà nước hỗ trợ tiền đóng theo tỷ lệ % trên mức đóng BHXH hàng tháng theo mức chuẩn hộ nghèo của khu vực nông thôn với các mức hỗ trợ 30% đối với người thuộc hộ nghèo, 25% đối với người thuộc hộ cận nghèo và 10% đối với các đối tượng còn lại. \n
+
+Bên cạnh đó, Chính phủ “khuyến khích các cơ quan, tổ chức và cá nhân hỗ trợ thêm tiền đóng BHXH cho người tham gia BHXH tự nguyện”. Đồng thời, “căn cứ vào điều kiện phát triển kinh tế - xã hội và khả năng ngân sách Nhà nước trong từng thời kỳ, Chính phủ sẽ xem xét điều chỉnh mức hỗ trợ tiền đóng cho người tham gia BHXH tự nguyện cho phù hợp”. \n
+
+Như vậy, chính sách hỗ trợ tiền đóng BHXH tự nguyện mới được triển khai từ ngày 01/01/2018, trong quá trình triển khai, Bộ LĐ-TB&amp;XH sẽ có đánh giá cụ thể về kết quả thực hiện chính sách hỗ trợ, làm cơ sở cho việc nghiên cứu, đề xuất trong việc hoàn thiện chính sách và có thể xem xét, kiến nghị việc tăng mức hỗ trợ BHXH cho người tham gia BHXH tự nguyện./. \n"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

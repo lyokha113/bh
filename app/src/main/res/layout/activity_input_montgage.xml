@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="20dp"
+    android:weightSum="80"
+    tools:context=".InputMontgageActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:text="TRA CỨU BẢO HIỂM XÃ HỘI"
+        android:textColor="#3F4068"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        app:ms_alignLabels="true"
+        app:ms_arrowColor="#803F4068"
+        app:ms_arrowSize="16dp"
+        app:ms_hint="Tỉnh/Thành Phố"
+        app:ms_hintColor="#803F4068"
+        app:ms_multiline="false"
+        app:ms_thickness="1sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ Tên"
+            android:inputType="text"
+            android:textColor="#3F4068"
+            android:textColorHint="#803F4068"
+            android:textSize="20sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="@drawable/border_dashed"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:weightSum="70">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="Vui lòng nhập ít nhất 1 thông tin"
+            android:textColor="#00BCD4"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="CMND"
+                android:inputType="text"
+                android:textColor="#3F4068"
+                android:textColorHint="#803F4068"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ngày/Tháng Sinh"
+                android:inputType="text"
+                android:textColor="#3F4068"
+                android:textColorHint="#803F4068"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Số BHXH"
+                android:inputType="text"
+                android:textColor="#3F4068"
+                android:textColorHint="#803F4068"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Mã Xác Thực"
+                android:inputType="text"
+                android:textColor="#3F4068"
+                android:textColorHint="#803F4068"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="12dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/maxacnhan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="12dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/ic_refresh" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/inputMortgageBtn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="TRA CỨU"
+            android:textSize="20sp"
+            app:backgroundTint="#39528d"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

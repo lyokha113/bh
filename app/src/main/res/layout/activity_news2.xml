@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".News1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phó Thủ tướng Vương Đình Huệ giải đáp nhiều vấn đề về chính sách BHXH, tiền lương"
+                android:textColor="#1d70b7"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="25/09/2018 09:30 AM"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Tại Diễn đàn Thủ tướng Chính phủ gặp gỡ các đại biểu dự Đại hội Công đoàn Việt Nam lần thứ XI với chủ đề “Công đoàn Việt Nam đồng hành cùng Chính phủ nâng cao năng lực cạnh tranh quốc gia và phát triển bền vững đất nước” vừa diễn ra chiều qua (24/9), tại Hà Nội, đại diện Chính phủ, Phó Thủ tướng Vương Đình Huệ đã giải đáp những câu hỏi của đại biểu liên quan đến vấn đề chính sách BHXH, chính sách tiền lương."
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/news3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Hoàn thiện các chính sách an sinh xã hội"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phó Thủ tướng Vương Đình Huệ khẳng định, công cuộc đổi mới, chuyển đổi mô hình tăng trưởng, nâng cao năng suất lao động, sức cạnh tranh của nền kinh tế do Đảng khởi xướng và Chính phủ thực hiện không thể thành công nếu không có sự tham gia của các tầng lớp nhân dân và mỗi NLĐ. Thành quả của đổi mới, tăng trưởng kinh tế không có ý nghĩa gì nếu người dân không được thụ hưởng; đổi mới, tăng trưởng kinh tế chỉ có ý nghĩa khi tất cả mọi người được chăm lo. \n
+
+Nhắc lại thông điệp của Thủ tướng Chính phủ về nội hàm của sự phát triển là “Không ai bị bỏ lại phía sau”, Phó Thủ tướng Vương Đình Huệ cho biết Quốc hội, Chính phủ đã và đang hoàn thiện hệ thống pháp luật, chính sách và tổ chức thực hiện quyết liệt, hiệu quả hơn về các vấn đề lao động, việc làm, tiền lương, BHXH, BHYT, và các chính sách an sinh khác, nhất là các thiết chế của công đoàn cho NLĐ như: Trường học, nhà ở cho công nhân lao động ở các khu công nghiệp, khu chế xuất. \n
+
+“Đặc biệt, hệ thống chính sách pháp luật này phải dựa trên nguyên tắc thị trường, theo định hướng xã hội chủ nghĩa, bảo đảm mối quan hệ bên trong DN -giữa giới chủ và NLĐ- diễn ra tốt đẹp, hài hoà”, Phó Thủ tướng Vương Đình Huệ nhận định. \n
+
+“Chúng tôi đang thực hiện ý kiến chỉ đạo của Thủ tướng Chính phủ, trình Quốc hội dành một phần trong đầu tư công để hỗ trợ lãi suất cho nhà ở xã hội. Nếu chúng ta có một đồng hỗ trợ lãi suất, chúng ta có thể huy động được 10 đồng qua các ngân hàng thương mại. Cùng với đó, còn một kênh nữa là qua Ngân hàng chính sách Việt Nam. Đây là những thiết chế về văn hóa, an sinh. Chúng tôi hy vọng trong nhiệm kỳ này, với những việc làm đột phá, với sự đồng hành của Công đoàn và Chính phủ, chúng ta sẽ gặt hái được kết quả, chăm lo tốt hơn cho NLĐ”, Phó Thủ tướng Vương Đình Huệ chia sẻ. \n
+
+Về hệ thống chính sách tiền lương, Phó Thủ tướng Vương Đình Huệ cho biết, chúng ta đang tiếp tục hoàn thiện hệ thống tiền lương tối thiểu. Đây chính là sàn thấp nhất, để bảo vệ quyền lợi cho NLĐ. Đây cũng là căn cứ để thảo luận, ký kết hợp đồng lao động, thỏa ước lao động tập thể và là cơ sở để chúng ta điều tiết thị trường lao động. \n
+
+“Không chỉ tiền lương tối thiểu theo tháng, mà tới đây, chúng ta sẽ xây dựng hệ thống tiền lương tối thiểu theo giờ” - Phó Thủ tướng Vương Đình Huệ nhấn mạnh. \n
+
+Cũng theo Phó Thủ tướng Vương Đình Huệ, Chính phủ sẽ tăng cường công tác thanh tra, kiểm tra để đảm bảo việc xây dựng hệ thống tiền lương tối thiểu này được thực thi trong thực tế. \n"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Xây dựng hệ thống chính sách BHXH đa tầng"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Về cải cách chính sách BHXH, Phó Thủ tướng Vương Đình Huệ cho biết, chúng ta sẽ hướng tới việc tạo ra một hệ thống chính sách BHXH đa tầng, hướng đến BHXH toàn dân. Theo đó, tầng thứ nhất là lương hưu xã hội - trợ cấp tuổi già. Tầng thứ hai là chính sách bảo hiểm cơ bản, bao gồm BHXH bắt buộc (ốm đau, thai sản, tai nạn lao động - bệnh nghề nghiệp, thất nghiệp, hưu trí, tử tuất) và BHXH tự nguyện; trong tầng thứ hai, Nhà nước cũng hỗ trợ một phần chi phí đóng BHXH đối với một số đối tượng hộ nghèo, khó khăn để khuyến khích người dân tham gia BHXH tự nguyện nhằm bảo đảm cuộc sống sau khi hết tuổi lao động. Tầng bảo hiểm thứ ba là bảo hiểm hưu trí bổ sung để phục vụ cho những NLĐ có thu nhập cao, muốn gia tăng đóng góp để hưởng bảo hiểm cao hơn. \n
+“Một điều chỉnh nữa là chúng ta sẽ rút ngắn thời gian đóng BHXH để được hưởng lương. Ví dụ, theo Luật BHXH hiện hành, NLĐ tham gia BHXH 20 năm mới đủ điều kiện hưởng lương hưu, thì lộ trình tới đây của cải cách chính sách BHXH sẽ rút xuống còn 15 năm và tiến tới chúng ta chỉ cần đóng đủ 10 năm BHXH là sẽ được hưởng lương hưu, nhằm bảo đảm bình đẳng giữa NLĐ ở khu vực chính thức và phi chính thức, cũng như vấn đề bình đẳng giới”, Phó Thủ tướng Vương Đình Huệ chia sẻ. \n
+
+Phó Thủ tướng Vương Đình Huệ cũng cho biết, hiện Chính phủ đang chỉ đạo các Bộ, ngành “khơi thông” thị trường lao động, đào tạo cán bộ, tăng cường liên thông thị trường trong và ngoài nước, tăng cường kết nối lao động, đào tạo nghề. \n
+
+Phó Thủ tướng Vương Đình Huệ cũng đề nghị, Tổng LĐLĐ Việt Nam tích cực phối hợp với các cơ quan của Chính phủ để rà soát, hoàn thiện pháp luật và thể chế. Đồng thời cần phát triển, nâng cao năng lực, vị thế của công đoàn cơ sở, để “phủ sóng” được nhiều hơn với cả khối doanh nghiệp FDI, doanh nghiệp tư nhân, ngày cành làm tốt hơn nữa vai trò là tổ chức đại diện và bảo vệ quyền lợi của NLĐ./. \n"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

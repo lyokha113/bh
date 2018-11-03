@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/news"
+        android:enabled="true"
+        android:icon="@drawable/news"
+        android:title="@string/nav_news" />
+
+    <item
+        android:id="@+id/mortage"
+        android:enabled="true"
+        android:icon="@drawable/mortgage"
+        android:title="@string/nav_mortgage" />
+
+    <item
+        android:id="@+id/shield"
+        android:enabled="true"
+        android:icon="@drawable/shield"
+        android:title="@string/nav_shield" />
+
+    <item
+        android:id="@+id/account"
+        android:enabled="true"
+        android:icon="@drawable/account"
+        android:title="@string/nav_account" />
+</menu>
